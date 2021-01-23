@@ -1,0 +1,630 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.brand {
+    display: none;
+}
+
+.nav-items {
+    margin: 0;
+    padding: 5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+a:hover {
+    color: #999999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-items li {
+    padding: 2%;
+    width: 22%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.sign-up {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+
+.login {
+    color: white;
+}
+
+.moto-container {
+    background-image: url('./Assets/main.png');
+    height: 78%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.moto-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.moto-content .brand {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.moto {
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.below-moto {
+    font-size: 1.3em;
+    text-align: center;
+    width: 82%;
+    margin-top: 3%;
+}
+
+.find-partner {
+    width: 325px;
+    font-size: 1em;
+    color: white;
+    background: #ED2939;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin: 5%;
+    font-weight: bold;
+}
+
+.work-process {
+    padding: 5%;
+}
+
+.title {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    color: #313131;
+}
+
+.wc-1 {
+    background-image: url('./Assets/step1.png');
+}
+
+.wc-2 {
+    background-image: url('./Assets/step2.png');
+}
+
+.wc-3 {
+    background-image: url('./Assets/step3.png');
+}
+
+.work-container {
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    margin: 3% auto;
+    border-radius: 5px;
+}
+
+.work-content {
+    background: rgba(0, 0, 0, 0.5);
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.step {
+    background: #ED2939;
+    width: 22%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 0.9em;
+    margin-bottom: 5%;
+}
+
+.work-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.partners {
+    padding: 5%;
+    text-align: center;
+}
+
+.partner {
+    text-align: center;
+    margin: 5% auto;
+}
+
+.partner-img {
+    width: 140px;
+}
+
+.partner-name {
+    margin: 3% auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #313131;
+}
+
+.partner-bio {
+    color: #555555;
+}
+
+.more-partners {
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    background: white;
+    border: 2px solid #ED2939;
+    color: #ED2939;
+    padding: 2%;
+    border-radius: 30px;
+    margin: 7% auto;
+}
+
+.activity-ideas {
+    padding: 0 5%;
+}
+
+.activity-ideas .title {
+    padding: 4%;
+}
+
+.box-1 {
+    background-image: url('./Assets/@2x_Sports.png');
+}
+
+.box-2 {
+    background-image: url('./Assets/@2x_wellness.png');
+}
+
+.box-3 {
+    background-image: url('./Assets/@2x_extreme.png');
+}
+
+.box-4 {
+    background-image: url('./Assets/@2x_Games.png');
+}
+
+.box-5 {
+    background-image: url('./Assets/@2x_Culture.png');
+}
+
+.box-6 {
+    background-image: url('./Assets/@2x_enjoyment.png');
+}
+
+.box-7 {
+    background-image: url('./Assets/@2x_traveling.png');
+}
+
+.box-out {
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 900;
+    padding: 0 5%;
+    text-align: center;
+    margin: 5% 0;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.create-activity {
+    padding: 5%;
+    text-align: center;
+}
+
+.create-activity p {
+    color: #555555;
+    margin: 10px 0;
+}
+
+#interests {
+    width: 300px;
+    padding: 2%;
+    font-size: 1em;
+    border: 1px solid #999999;
+}
+
+.search-partner {
+    margin: 3%;
+    width: 300px;
+    font-size: 1em;
+    padding: 2%;
+    color: white;
+    border: none;
+    background: #ED2939;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #ED2939;
+}
+
+footer {
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.logo {
+    color: #ED2939;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.items {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-title {
+    font-weight: bold;
+    margin: 0;
+    margin: 5%;
+}
+
+.footer-nav-item {
+    margin: 4%;
+}
+
+.footer-nav-item, .designer-logo {
+    color: #999999;
+}
+
+/* PARTNERS PAGE */
+
+.partner-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.partner-brand {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user .user-img {
+    width: 15%;
+}
+
+.user .user-name {
+    height: fit-content;
+    margin: auto 1%;
+    color: #999999;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.back-btn {
+    padding-left: 2%;
+    font-weight: bold;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.partner-heading {
+    padding: 0 2%;
+    font-size: 1em;
+}
+
+.gender {
+    padding: 0 2%;
+}
+
+.gender-btn {
+    margin: 0 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.gender-btn:hover, .more-partners:hover{
+    color: white;
+    background: #ED2939;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+.all-partners{
+    margin: 2%;
+}
+
+.all-partners .partner-card{
+    border: none;
+    width: 90%;
+    padding: 2%;
+    box-shadow: 0px 1px 3px 0px #a2a2a2;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.all-partners .partner-img{
+    width: 35%;
+}
+
+.all-partners .partner-card .name, .detail-box .name{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #222;
+}
+
+.all-partners .partner-card .bio, .detail-box .bio{
+    font-weight: bold;
+    color: #666;
+    font-size: 1em;
+    text-align: center;
+}
+
+.partner-btns{
+    width: 100%;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.partner-btn{
+    background: #ED2939;
+    border: none;
+    width: 95px;
+    height: 40px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 15px 0;
+    border-radius: 20px;
+}
+
+.partner-dismiss{
+    color: gray;
+    background: white;
+}
+
+.view-details{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.detail-box{
+    margin: 6% auto;
+    width: 90%;
+    background: white;
+    height: 70%;
+    padding: 2%;
+    text-align: center;
+}
+
+.close-box{
+    text-align: right;
+}
+
+.close-btn{
+    width: 5%;
+    cursor: pointer;
+}
+
+.detail-box .age, .detail-box .detailed-bio, .detail-box .travel-style{
+    margin: 2%;
+    text-align: start;
+}
+
+.detail-box .age span, .detail-box .detailed-bio span, .detail-box .travel-style span{
+    font-weight: bold;
+}
+
+@media (min-width:600px) {
+    .nav .brand {
+        display: initial;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .moto-content .brand {
+        display: none;
+    }
+    .nav {
+        padding: 5%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .nav .nav-items {
+        padding: 0;
+        display: initial;
+        width: 50%;
+        text-align: right;
+    }
+    .sign-up {
+        padding: 3% 10%;
+        margin: 0 10%;
+    }
+    .find-partner {
+        margin: 2% 10%;
+        /* height: 5%; */
+    }
+    .work-process-wrapper {
+        display: flex;
+    }
+    .work-container {
+        width: 32%;
+        height: 450px;
+    }
+    .work-content {
+        height: 450px;
+        padding-top: 200px;
+        display: block;
+    }
+    .step {
+        width: 30%;
+    }
+    .partner-wrapper {
+        display: flex;
+    }
+    .more-partners {
+        width: 30%;
+    }
+    .box {
+        height: 240px;
+    }
+    .search-partner {
+        width: 200px;
+    }
+    #interests {
+        width: 400px;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-title {
+        margin: 0;
+    }
+    /* PARTNERS PAGE */
+    .gender-btn {
+        margin: 0 5px;
+        width: 100px;
+    }
+
+    .all-partners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .all-partners .partner-card{
+        width: 27%;
+        height: 300px;
+        margin: 1%;
+    }
+
+    .all-partners-row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .detail-box{
+        width: 30%;
+    }
+}
+
+@media (min-width:801px) {
+    .nav {
+        padding: 25px;
+    }
+    .sign-up {
+        padding: 5px 25px;
+    }
+    .work-container {
+        height: 550px;
+    }
+    .work-content {
+        height: 550px;
+        padding-top: 380px;
+    }
+    .more-partners {
+        padding: 1%;
+        margin: auto;
+    }
+    #interests, .search-partner {
+        padding: 1%;
+        margin: 1%;
+    }
+    /* PARTNERS PAGE */
+    .gender-btn {
+        margin: 0 5px;
+        width: 10%;
+    }
+
+    .all-partners .partner-card{
+        width: 22%;
+        height: 400px;
+    }
+
+    .all-partners .partner-img{
+        width: 50%;
+    }
+
+    .partner-btn{
+        width: 40%;
+    }
+}
